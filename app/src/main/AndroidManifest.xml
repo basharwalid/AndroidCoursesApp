@@ -13,12 +13,16 @@
         android:theme="@style/Theme.Session_two_assignment"
         tools:targetApi="31" >
         <activity android:name=".Splash_Activity" android:exported="true"
-                android:theme="@style/Theme.MaterialComponents.NoActionBar"
+                android:theme="@style/Theme.Session_two_assignment"
+                android:screenOrientation="fullSensor"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".Home_Activity" android:exported="true">
+
         </activity>
     </application>
 
